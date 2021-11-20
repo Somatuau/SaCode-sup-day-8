@@ -1,0 +1,82 @@
+/* Element Selector */
+
+body{
+    color: white;
+    margin: none;
+    padding: none;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+
+/* ID Selector */
+
+#container {
+    margin: 20px;
+    padding: 20px;
+    
+}
+
+
+/* Class Selector */
+.container{
+width: 80%;
+margin-left: auto;
+margin-right: auto;
+
+}
+
+.container-fluid {
+    width: 100%;
+    
+}
+
+.header{
+    background-color:#1E003D ;
+    padding: 20px;
+}
+
+.nav{
+    background-color: #7E349D;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.nav a {
+    text-decoration:none;
+    color:#fff;
+    padding: 20px;
+
+}
+
+.nav a:hover{
+    background-color:#3E005D;
+    padding-right: 40px;
+    transition:0.5s;
+}
+
+.nav a.active{
+    background-color:#3E005D ;
+}
+
+.content {
+    background-color:#CEA0E4;
+    float: left;
+    padding: 20px;
+    width: 60%;
+    margin-right: 20px;
+}
+
+.sidebar{
+    background-color:#6E248D;
+    padding: 20px;
+    
+    
+}
+
+.footer{
+    background-color:#BE90D4 ;
+    padding: 20px;
+
+}
+
